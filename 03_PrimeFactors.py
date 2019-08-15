@@ -1,13 +1,18 @@
-def greater_number(number_1=0, number_2=0):
-    if number_1 > number_2:
-        return number_1
-    else:
-        return number_2
-
-
 def prime_factors(number=1):
     pf_list = []
+    prime_factor = 2
     print "\n\t ", number, " = "
+    if number == 1:
+        print "1"
+    while number >= prime_factor:
+        if number % prime_factor == 0:
+            pf_list.append(prime_factor)
+            print "\t\t", prime_factor
+            number /= prime_factor
+            prime_factor = 2
+        else:
+            prime_factor += 1
+    return pf_list
 
 
 if __name__ == "__main__":
