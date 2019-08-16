@@ -1,10 +1,3 @@
-def greater_number(number_1=0, number_2=0):
-    if number_1 > number_2:
-        return number_1
-    else:
-        return number_2
-
-
 def irreducible_fraction(number=.25):
     numerator = 1
     denominator = 1
