@@ -20,6 +20,6 @@ if __name__ == "__main__":
     count = 0
 
     while count != cases:
-        sentence = raw_input("\n\tEnter a the sentence here: ")
-        print "\n\tIs the sentence introduce a Pangram? ", panagram(sentence)
+        sentence = input("\n\tEnter a the sentence here: ")
+        print("\n\tIs the sentence introduce a Pangram? ", panagram(sentence))
         count += 1

@@ -21,5 +21,5 @@ if __name__ == "__main__":
 
     while count != cases:
         number = input("\n\tEnter a number a here: ")
-        print "\n\tThe prime factors are: ", prime_factors(number)
+        print("\n\tThe prime factors are: ", prime_factors(number))
         count += 1

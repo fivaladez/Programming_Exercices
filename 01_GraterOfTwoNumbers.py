@@ -9,4 +9,4 @@ if __name__ == "__main__":
     first_number = input("\n\tEnter a number a here: ")
     second_number = input("\n\tEnter a number a here: ")
 
-    print "\n\tThe greater number is: ", greater_number(first_number, second_number)
+    print("\n\tThe greater number is: ", greater_number(first_number, second_number))

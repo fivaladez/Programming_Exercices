@@ -26,5 +26,5 @@ if __name__ == "__main__":
 
     while count != cases:
         number = input("\n\tEnter a number a here: ")
-        print "\n\tThe sum of digits is: ", digit_sum(number)
+        print("\n\tThe sum of digits is: ", digit_sum(number))
         count += 1

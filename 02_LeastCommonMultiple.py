@@ -18,4 +18,4 @@ if __name__ == "__main__":
     first_number = input("\n\tEnter a number a here: ")
     second_number = input("\n\tEnter a number a here: ")
 
-    print "\n\tThe least common multiple is: ", least_common_multiple(first_number, second_number)
+    print("\n\tThe least common multiple is: ", least_common_multiple(first_number, second_number))

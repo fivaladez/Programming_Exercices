@@ -7,5 +7,5 @@ if __name__ == "__main__":
 
     while count != cases:
         sentence = raw_input("\n\tEnter a the sentence here: ")
-        print "\n\tIs the sentence introduce a Pangram? ", panagram(sentence)
+        print("\n\tIs the sentence introduce a Pangram? ", panagram(sentence))
         count += 1

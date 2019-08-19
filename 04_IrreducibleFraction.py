@@ -26,6 +26,6 @@ if __name__ == "__main__":
 
     while count != cases:
         number = input("\n\tEnter a number a here: ")
-        print number
-        print "\n\tThe irreducible fraction is: ", irreducible_fraction(number)
+        print(number)
+        print("\n\tThe irreducible fraction is: ", irreducible_fraction(number))
         count += 1
