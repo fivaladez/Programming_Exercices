@@ -16,7 +16,7 @@ def panagram(sentence="abc"):
 
 
 if __name__ == "__main__":
-    cases = input("\n\tEnter a the number of cases here: ")
+    cases = int(input("\n\tEnter a the number of cases here: "))
     count = 0
 
     while count != cases:

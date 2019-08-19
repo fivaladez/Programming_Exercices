@@ -21,11 +21,11 @@ def irreducible_fraction(number=.25):
 
 
 if __name__ == "__main__":
-    cases = input("\n\tEnter a the number of cases here: ")
+    cases = int(input("\n\tEnter a the number of cases here: "))
     count = 0
 
     while count != cases:
-        number = input("\n\tEnter a number a here: ")
+        number = float(input("\n\tEnter a number a here: "))
         print(number)
         print("\n\tThe irreducible fraction is: ", irreducible_fraction(number))
         count += 1

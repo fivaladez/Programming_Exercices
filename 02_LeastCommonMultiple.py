@@ -15,7 +15,8 @@ def least_common_multiple(number_1=0, number_2=0):
 
 
 if __name__ == "__main__":
-    first_number = input("\n\tEnter a number a here: ")
-    second_number = input("\n\tEnter a number a here: ")
+    # For Python 3, function input returns a String, no matter if you enter a numeric value
+    first_number = int(input("\n\tEnter a number a here: "))
+    second_number = int(input("\n\tEnter a number a here: "))
 
     print("\n\tThe least common multiple is: ", least_common_multiple(first_number, second_number))
