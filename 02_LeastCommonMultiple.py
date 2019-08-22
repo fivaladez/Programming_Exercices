@@ -1,13 +1,20 @@
 def greater_number(number_1=0, number_2=0):
+    """Returns the bigger number from two numbers passed"""
+    bigger_number = 0
+
     if number_1 > number_2:
-        return number_1
+        bigger_number = number_1
     else:
-        return number_2
+        bigger_number = number_2
+
+    return bigger_number
 
 
 def least_common_multiple(number_1=0, number_2=0):
+    """Returns the least common multiple number"""
+    # Get bigger number to start count from there
     lcm = greater_number(number_1, number_2)
-
+    # Increment lcm up to make it divisible by both numbers and without remainder
     while lcm % number_1 != 0 or lcm % number_2 != 0:
         lcm += 1
 

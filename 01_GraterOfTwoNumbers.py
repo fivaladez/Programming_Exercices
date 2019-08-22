@@ -1,8 +1,13 @@
 def greater_number(number_1=0, number_2=0):
+    """Returns the bigger number from two numbers passed"""
+    bigger_number = 0
+
     if number_1 > number_2:
-        return number_1
+        bigger_number = number_1
     else:
-        return number_2
+        bigger_number = number_2
+
+    return bigger_number
 
 
 if __name__ == "__main__":
