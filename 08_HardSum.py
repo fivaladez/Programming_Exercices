@@ -21,7 +21,7 @@ def hard_sum(sum_sentence="1 2 3"):
             # It checks for the end of the number introduced and substract it from the result
             if sum_sentence[count].isdigit():
                 result = result - int(aux_result)
-
+        # Similar logic for positive numbers
         elif sum_sentence[count].isdigit():
             aux_result = ""
             while sum_sentence[count].isdigit():
